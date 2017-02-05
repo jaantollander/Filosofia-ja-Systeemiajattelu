@@ -1,0 +1,48 @@
+% https://en.wikibooks.org/wiki/LaTeX/Title_Creation
+\ProvidesPackage{customtitle}[2015/08/10 v.01 an
+example package^^J for wikibooks]
+\RequirePackage{sphinx}
+
+
+% Arguments
+\newcommand*{\institute}[1]{\gdef\@project{#1}%
+}
+\newcommand*{\@institute}{}
+\newcommand*{\project}[1]{\gdef\@project{#1}%
+}
+\newcommand*{\@project}{}
+% \newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}%
+% }
+% \newcommand*{\@supervisor}{}
+
+
+% Maketitle
+\renewcommand*{\maketitle}{%
+\begin{titlepage}
+
+
+\centering{
+\resizebox{.35\textwidth}{!}{%
+\sphinxlogo
+}}
+
+\vspace{1cm}
+	\centering
+{\scshape\LARGE\@institute\par}
+\vspace{1cm}
+{\scshape\Large\@project\unskip\strut\par}
+\vspace{1.5cm}
+{\huge\bfseries\@title\unskip\strut\par}
+\vspace{2cm}
+{\Large\itshape\@author\unskip\strut\par}
+\vfill
+% supervised by\par
+% \@supervisor\unskip\strut\par
+
+\vfill
+
+{\large \@date\par}
+
+\end{titlepage}
+}
+\endinput
