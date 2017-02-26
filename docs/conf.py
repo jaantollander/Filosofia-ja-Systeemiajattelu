@@ -46,6 +46,7 @@ project = 'TU-A1150 - Filosofia ja systeemiajattelu, 18.01.2017-31.03.2017'
 copyright = '2017, Jaan Tollander de Balsch'
 author = 'Jaan Tollander de Balsch'
 institute = 'Aalto University'
+student_number = '452056'
 
 version = ''
 release = ''
@@ -108,12 +109,6 @@ htmlhelp_basename = 'ArticleSummarydoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-# fontpkg = r"""
-# \setmainfont{DejaVu Serif}
-# \setsansfont{DejaVu Sans}
-# \setmonofont{DejaVu Sans Mono}
-# """
-
 preamble = r"""
 \usepackage{amsfonts}
 \usepackage{parskip}
@@ -135,8 +130,6 @@ preamble += r'\project{%s}' % project
 
 latex_engine = 'pdflatex'
 latex_elements = {
-    # 'fontenc': r'\usepackage{fontspec}',
-    # 'fontpkg': fontpkg,
     'papersize': 'a4paper',
     'pointsize': '11pt',
     'preamble': preamble,
@@ -144,8 +137,18 @@ latex_elements = {
 }
 
 # ('source', 'target', 'title', 'author', 'documentclass')
+from boltons.strutils import slugify
 latex_documents = [
-    ('summary/index', 'summary.tex', 'Referaatti', author, 'report'),
+    ('summary/index',
+     slugify(' '.join(['summary', student_number])) + '.tex',
+     'Referaatti',
+     author,
+     'report'),
+    ('oppimiskeskustelu/index',
+     slugify(' '.join(['oppimiskeskustelu', student_number])) + '.tex',
+     'Räjähdysvoimainen Oppimiskeskustelu',
+     author + ', ' + student_number,
+     'report'),
 ]
 
 latex_logo = '_static/Philosophy.png'

@@ -1,10 +1,10 @@
 ## Documentation
 sphinx
 sphinx_rtd_theme
-sphinxcontrib-napoleon
-sphinxcontrib-bibtex
-sphinxcontrib-programoutput
 graphviz
 
 ## Github pages
 ghp-import
+
+## Extra
+boltons
