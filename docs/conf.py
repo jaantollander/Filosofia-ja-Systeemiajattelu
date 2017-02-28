@@ -158,8 +158,8 @@ authors = [
 ]
 latex_documents.append((
     'oppimiskeskustelu/index',
-    slugify(' '.join(['oppimiskeskustelu', ] + [n[1] for n in authors])) + '.tex',
-    'Räjähdysvoimainen Oppimiskeskustelu',
+    slugify(' '.join([n[1] for n in authors] + ['raportti'])) + '.tex',
+    'Räjähdysvoimaisen Oppimiskeskustelun Raportti',
     r'\\'.join((', '.join(details) for details in authors)),
     'report'
 ))
