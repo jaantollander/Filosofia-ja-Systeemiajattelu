@@ -164,7 +164,7 @@ latex_documents.append((
     'report'
 ))
 
-latex_logo = '_static/Philosophy.png'
+latex_logo = '_static/pulp-fiction-duo.jpg'
 latex_show_urls = 'footnote'
 latex_additional_files = [
     mystyle + '.sty'
