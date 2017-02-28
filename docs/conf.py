@@ -119,14 +119,12 @@ mystyle = 'customtitle'
 preamble += '\n'
 preamble += r'\usepackage{%s}' % mystyle
 
-
 preamble += '\n'
 preamble += r'\institute{%s}' % institute
 
 institute = 'Aalto University'
 preamble += '\n'
 preamble += r'\project{%s}' % project
-
 
 latex_engine = 'pdflatex'
 latex_elements = {
@@ -136,20 +134,35 @@ latex_elements = {
     'figure_align': 'htbp',
 }
 
-# ('source', 'target', 'title', 'author', 'documentclass')
 from boltons.strutils import slugify
-latex_documents = [
-    ('summary/index',
-     slugify(' '.join(['summary', student_number])) + '.tex',
-     'Referaatti',
-     author,
-     'report'),
-    ('oppimiskeskustelu/index',
-     slugify(' '.join(['oppimiskeskustelu', student_number])) + '.tex',
-     'Räjähdysvoimainen Oppimiskeskustelu',
-     author + ', ' + student_number,
-     'report'),
+
+# ('source', 'target', 'title', 'author', 'documentclass')
+latex_documents = list()
+
+# Summary
+latex_documents.append((
+    'summary/index',
+    slugify(' '.join(['summary', student_number])) + '.tex',
+    'Referaatti',
+    author,
+    'report'
+))
+
+# Oppimiskeskustelu
+authors = [
+    (author, student_number),
+    ('Henri Ailas', '345260'),
+    ('Jarmo Romo', '298375'),
+    ('Anssi Karppinen', '425533'),
+    ('Topias Härmä', '429089'),
 ]
+latex_documents.append((
+    'oppimiskeskustelu/index',
+    slugify(' '.join(['oppimiskeskustelu', ] + [n[1] for n in authors])) + '.tex',
+    'Räjähdysvoimainen Oppimiskeskustelu',
+    r'\\'.join((', '.join(details) for details in authors)),
+    'report'
+))
 
 latex_logo = '_static/Philosophy.png'
 latex_show_urls = 'footnote'

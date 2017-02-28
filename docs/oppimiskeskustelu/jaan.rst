@@ -1,5 +1,9 @@
 Kolme Opetusta Tarantinolta
 ===========================
+
+:nimi: Jaan Tollander de Balsch
+:opiskelija-numero: 452056
+
 Pohdintoja Esa Saarisen luennolta *Kolme Opetusta Tarantinolta* [ESA17]_.
 
 Alun esimerkistä, liittyen *Serendipity* [#]_ käsitteseen, jossa Esa kaupan jonossa tapasi henkilön johon hänen tuottamansa materiaali oli tehnyt suuren vaikutuksen. Oma filosofiani tähän liittyen on pyrkiä tuottamaan jakamani tuotokseni aina pitäen mielessä ajatuksen, että koskaan ei voi olla varma kuka ja kuinka moni siitä tulee hyötymään jonka takia on aina pyrittävä panostamaan tuotoksiin kuten se olisi hyvin tärkeä.

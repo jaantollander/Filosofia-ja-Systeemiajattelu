@@ -18,4 +18,9 @@ Pohtikaa esimerkiksi seuraavia kysymyksiä kirjoituksissanne, keskustelussanne j
 
 .. toctree::
 
-   kolme_opetusta_tarantinolta.rst
+   jaan.rst
+   anssi_karppinen.rst
+   henri_ailas.rst
+   jarmo_romo.rst
+   topias_harma.rst
+   pohdinnat.rst
