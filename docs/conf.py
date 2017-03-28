@@ -164,6 +164,15 @@ latex_documents.append((
     'report'
 ))
 
+# Reflektioessee
+latex_documents.append((
+    'reflektioessee/index',
+    slugify(' '.join(['reflektioessee', student_number])) + '.tex',
+    'Reflektioessee',
+    author,
+    'report'
+))
+
 latex_logo = '_static/pulp-fiction-duo.jpg'
 latex_show_urls = 'footnote'
 latex_additional_files = [
