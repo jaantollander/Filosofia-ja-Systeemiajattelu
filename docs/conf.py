@@ -134,19 +134,20 @@ latex_elements = {
     'figure_align': 'htbp',
 }
 
-from boltons.strutils import slugify
-
 # ('source', 'target', 'title', 'author', 'documentclass')
-latex_documents = list()
+latex_documents = []
+
+
+def tex_file(*args):
+    from boltons.strutils import slugify
+    return slugify(' '.join(args)) + '.tex'
+
 
 # Summary
-latex_documents.append((
-    'summary/index',
-    slugify(' '.join(['summary', student_number])) + '.tex',
-    'Referaatti',
-    author,
-    'report'
-))
+# latex_documents.append((
+#     'summary/index', tex_file('summary', student_number),
+#     'Referaatti', author, 'report'
+# ))
 
 # Oppimiskeskustelu
 authors = [
@@ -156,24 +157,22 @@ authors = [
     ('Anssi Karppinen', '425533'),
     ('Topias Härmä', '429089'),
 ]
-latex_documents.append((
-    'oppimiskeskustelu/index',
-    slugify(' '.join([n[1] for n in authors] + ['raportti'])) + '.tex',
-    'Räjähdysvoimaisen Oppimiskeskustelun Raportti',
-    r'\\'.join((', '.join(details) for details in authors)),
-    'report'
-))
+# latex_documents.append((
+#     'oppimiskeskustelu/index',
+#     tex_file(*([n[1] for n in authors] + ['raportti'])),
+#     'Räjähdysvoimaisen Oppimiskeskustelun Raportti',
+#     r'\\'.join((', '.join(details) for details in authors)),
+#     'report'
+# ))
 
 # Reflektioessee
 latex_documents.append((
     'reflektioessee/index',
-    slugify(' '.join(['reflektioessee', student_number])) + '.tex',
-    'Reflektioessee',
-    author,
-    'report'
+    tex_file('reflektioessee', student_number),
+    'Reflektioessee - Elämäni Maisema', author, 'report'
 ))
 
-latex_logo = '_static/pulp-fiction-duo.jpg'
+latex_logo = '_static/limitless-movie-review-1.png'
 latex_show_urls = 'footnote'
 latex_additional_files = [
     mystyle + '.sty'
