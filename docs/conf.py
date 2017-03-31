@@ -58,10 +58,10 @@ todo_include_todos = False
 
 # -- Graphviz --------------------------------------------------------
 
-# extensions += 'sphinx.ext.graphviz'
-# graphviz_dot = 'dot'
-# graphviz_dot_args = []
-# graphviz_output_format = 'png'  # svg
+extensions += ['sphinx.ext.graphviz']
+graphviz_dot = 'dot'
+graphviz_dot_args = []
+graphviz_output_format = 'png'  # svg
 
 
 # -- Napoleon --------------------------------------------------------
