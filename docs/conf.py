@@ -169,7 +169,7 @@ authors = [
 latex_documents.append((
     'reflektioessee/index',
     tex_file('reflektioessee', student_number),
-    'Reflektioessee - Elämäni Maisema', author, 'report'
+    'Landscape of my Life', author, 'report'
 ))
 
 latex_logo = '_static/limitless-movie-review-1.png'

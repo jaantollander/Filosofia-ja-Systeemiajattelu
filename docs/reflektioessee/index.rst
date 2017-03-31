@@ -1,8 +1,14 @@
-Reflektioessee - Elämäni Maisema
-================================
+Landscape of my Life
+====================
 
 .. note::
    Annan luvan käyttää kirjoittamiani pohdintoja anonyymisti tutkimuksessa, jossa tutkitaan oppimista ja henkistä kasvua tällä kurssilla
+
+Infomation
+
+:name: Jaan Tollander de Balsch
+:study program: TFM
+:number-of-participated-lectures: 5
 
 Source of the cover picture is from the *Limitless* movie [LimitlessCover]_, which fits well on the theme of the essay.
 
@@ -36,36 +42,48 @@ Routines, Habits and Rituals
 
    *Snowy Morning*
 
+
 My mornings usually start waking up at around 07:00, drinking some water and eating two avocados seasoned with salt, followed my brief 15 minute walk in the nature. Morning walk is followed by brewing some coffee. Brewing coffee for some people means putting some pre ground coffee into the coffee machine and waiting whatever four minutes it takes coffee to brew. Personally, I prefer using coffee beans and preparing it from ground up, using manual coffee grinder and Aeropress®. This make way superior coffee, both in taste and effects, and makes a good way to start the day. Sometimes I boost my coffee with some butter and coconut / MCT oil, making what is called *Bulletproof* coffee [BulletproofCoffee]_. An alternative to coffee is another south American drink called *Yerba Mate* which also has great cognitive boosting effects. The purpose of these morning rituals or habits is to prepare the mind for the creative work of the day.
 
+
+.. figure:: 20170331_132712.jpg
+   :target: 20170331_132712.jpg
+   :alt: Workspace
+
+   *Altar of success*
 
 The day usually continues working on different programming projects until midday. Projects vary from school projects to hobby projects, but the common goal is always the same, to improve core skills and craft routines for solving similar problems faster, but maybe the most important of all is to learn meta skills, meaning learning to become better at learning itself.
 
 
-Morning creative work is followed by a walk to buy ingredient to prepare food. A good way to get some sunlight. Usual ingredients for fueling more cognitive and physical work for consist of vegetables, eggs, meat, butter, olive oil and spices. Starchy carbohydrates usually only if needed for replenishing glycogen or improve sleep since large blood sugar and insulin spikes are quite detrimental for productivity.
+Morning creative work is followed by a walk to buy ingredient to prepare food. A good way to get some sunlight. Usual ingredients for fueling more cognitive and physical work for consist of vegetables, eggs, meat, butter, olive oil, spices and herbs. Starchy carbohydrates usually only if needed for replenishing glycogen or improve sleep since large blood sugar and insulin spikes are quite detrimental for productivity.
 
 
-Evening activities vary from more cognitive work to sports or social activities. For example, around one year ago (winter, 2016) I started cheerleading, which is an interesting sport because team sport that requires concentration and the ability to learn a skill, but also benefits from flexibility and strength.
+Evening activities vary from more cognitive work to sports or social activities. For example, around one year ago (winter, 2016) I started cheerleading, which is an interesting sport because team sport that requires concentration and the ability to learn new skills, but also benefits from flexibility and strength. What comes to social activities the many *saunas* in Otaniemi are an example of a great place to meet other people, enjoy hot sauna, socialize and potentially take swim in the ice cold sea. This combines combines the benefits of heat exposure, socializing and cold thermogenesis.
 
+The common factor with all of these activities is that they attempt to induce the *"flow state"* [1]_ [FlowGenomeProject]_ one way or the other, which is almost a requirements to make great thing happen. I believe that this was also somewhat common goal with the lectures.
 
-Sleep
+Final important part of the day is going to sleep.
 
 
    *"Let your actions reflect your thoughts."*
 
-   -- Someone
+   -- Author
 
 
-Growth Mindset and Becoming Better Version of Yourself
-------------------------------------------------------
+.. [1] In positive psychology, flow, also known as the zone, is the mental state of operation in which a person performing an activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.
+
+
+Growth Mindset -- Becoming Your Best Self
+-----------------------------------------
 .. Energy -> Motivation
-.. Inner dialog
+.. Inner Dialog
+.. Mental Models
 
 .. figure:: growth.pdf
    :target: growth.pdf
    :alt: growth function
 
-Recent year of my life
+Its obvious from the previous chapter that my goals are focused on self improvement as many of the topics in the lectures were, ranging from giving more roses to our ladies to learning from Nelson Mandela or Lady Gaga.
 
 
    *"A day without learning is a day wasted. There is so much to learn and so little time to learn it."*
@@ -75,6 +93,12 @@ Recent year of my life
 
 Listen, Read and Learn from Masters
 -----------------------------------
+
+
+Future and Beyond
+-----------------
+
+
 
 
 .. [LimitlessCover] (2017). Movies-illustrated.com. Retrieved 31 March 2017, from http://www.movies-illustrated.com/wp-content/uploads/2011/May/limitless-movie-review-1.jpg
