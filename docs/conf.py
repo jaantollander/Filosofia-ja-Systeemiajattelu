@@ -144,10 +144,10 @@ def tex_file(*args):
 
 
 # Summary
-# latex_documents.append((
-#     'summary/index', tex_file('summary', student_number),
-#     'Referaatti', author, 'report'
-# ))
+latex_documents.append((
+    'summary/index', tex_file('summary', student_number),
+    'Referaatti', author, 'report'
+))
 
 # Oppimiskeskustelu
 authors = [
@@ -157,13 +157,13 @@ authors = [
     ('Anssi Karppinen', '425533'),
     ('Topias Härmä', '429089'),
 ]
-# latex_documents.append((
-#     'oppimiskeskustelu/index',
-#     tex_file(*([n[1] for n in authors] + ['raportti'])),
-#     'Räjähdysvoimaisen Oppimiskeskustelun Raportti',
-#     r'\\'.join((', '.join(details) for details in authors)),
-#     'report'
-# ))
+latex_documents.append((
+    'oppimiskeskustelu/index',
+    tex_file(*([auth for auth, numb in authors] + ['raportti'])),
+    'Räjähdysvoimaisen Oppimiskeskustelun Raportti',
+    r'\\'.join((', '.join(details) for details in authors)),
+    'report'
+))
 
 # Reflektioessee
 latex_documents.append((

@@ -88,7 +88,7 @@ Growth Mindset -- Becoming Your Best Self
 
 Its obvious from the previous chapter that my goals are focused on self improvement as many of the topics in the lectures were, ranging from giving more roses to our ladies to learning from Nelson Mandela or Lady Gaga.
 
-My goals and mindset were not always favoring growth. Referring to the lecture on "Three lessons from Tarantino", my personal *Transformation* happened around three years ago, due to health reasons (which I have fixed since) and it has lead to quite significant change, both physically and mentally. The motivation to improve one's self, to reprogram bad *mental models* and harmful *inner talk* comes down to energy levels, sufficient hormone levels and neurotransmitters. These parameters can be affected by understanding your environment and changing it to benefit you. Some of these parameters are sufficient sunlight exposure, the air you breath and the edibles and liquids you consume. Unfortunately change often itself takes energy, which if you are not well may be exactly what you don't have, and this is called negative feedback loop. Transformation comes down to finding a way to break this negative feedback loop and turning it into positive feedback loop. Positive feedback loops will lead to success and better life.
+My goals and mindset were not always favoring growth. Referring to the lecture on "Three lessons from Tarantino", my personal *Transformation* happened around three years ago, due to health reasons (which I have fixed since) and it has lead to quite significant change, both physically and mentally. The motivation to improve one's self, to reprogram bad *mental models* and harmful *inner talk* comes down to energy levels, sufficient hormone levels and neurotransmitters. These parameters can be affected by understanding your environment and changing it to benefit you. Some of these parameters are sufficient sunlight exposure, the air you breath and the edibles and liquids you consume. Unfortunately change often itself take energy, which if you are not well may be exactly what you don't have, and this is called negative feedback loop. Transformation comes down to finding a way to break this negative feedback loop and turning it into positive feedback loop. Positive feedback loops will lead to success and better life.
 
 To ensure being in the positive feedback loop, listening, reading and learning from the master of this field. Some of my favourite podcasts in this field are [Bulletproof]_, [Ferriss]_, [Greenfield]_ and recent book by finnish authors called "Biohakkerin käsikirja" [BHkasikirja]_.
 
@@ -97,18 +97,10 @@ To ensure being in the positive feedback loop, listening, reading and learning f
    -- Albert Einstein
 
 
-Future and Beyond
------------------
-I remember the first lecture when you asked if there was any
-
-
-
 .. [LimitlessCover] (2017). Movies-illustrated.com. Retrieved 31 March 2017, from http://www.movies-illustrated.com/wp-content/uploads/2011/May/limitless-movie-review-1.jpg
 .. [FlowGenomeProject] Flow Genome Project « The Official Source For Flow Science And Training. (2017). Flowgenomeproject.com. Retrieved 31 March 2017, from http://www.flowgenomeproject.com/
 .. [Bulletproof] Bulletproof Radio Archives. (2017). Bulletproof. Retrieved 31 March 2017, from https://blog.bulletproof.com/category/podcasts/
 .. [BulletproofCoffee] How to Make Bulletproof® Coffee w/ Dave Asprey. (2017). YouTube. Retrieved 31 March 2017, from https://www.youtube.com/watch?v=4YjLMdx3YZY
 .. [Ferriss] Podcast – The Tim Ferriss Show. (2014). The Blog of Author Tim Ferriss. Retrieved 31 March 2017, from http://tim.blog/podcast/
 .. [Greenfield] Podcasts - Ben Greenfield Fitness - Diet, Fat Loss and Performance Advice. (2017). Ben Greenfield Fitness - Diet, Fat Loss and Performance Advice. Retrieved 31 March 2017, from https://bengreenfieldfitness.com/podcasts/
-.. [Illacertus] illacertus. (2017). YouTube. Retrieved 31 March 2017, from https://www.youtube.com/channel/UCmvhCWvHk3-SJqljh5cCm8A/videos
 .. [BHkasikirja] Arina, T., Sovijärvi, O., & Halmetoja, J. (2016). Biohakkerin käsikirja – Päivitä itsesi ja vapauta sisäinen potentiaalisi. Helsinki: Dicole Oy.
-
