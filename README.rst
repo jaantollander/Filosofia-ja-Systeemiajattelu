@@ -17,7 +17,7 @@ Releases
 --------
 - `Article Summary <releases/summary_452056.pdf>`_
 - `Report <releases/raportti_452056_345260_298375_425533_429089.pdf>`_
-- `Reflection Essay <releases/summary_452056.pdf>`_
+- `Reflection Essay <releases/reflektioessee_452056.pdf>`_
 
 License
 -------
