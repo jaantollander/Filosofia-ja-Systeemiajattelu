@@ -13,6 +13,12 @@ Tu-A1150 - Filosofia ja systeemiajattelu
    * - Date
      - 18.01.2017-31.03.2017
 
+Releases
+--------
+- `Article Summary <releases/summary_452056.pdf>`_
+- `Report <releases/raportti_452056_345260_298375_425533_429089.pdf>`_
+- `Reflection Essay <releases/summary_452056.pdf>`_
+
 License
 -------
 

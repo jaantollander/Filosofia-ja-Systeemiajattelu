@@ -39,7 +39,6 @@ Routines, Habits and Rituals
 ----------------------------
 
 .. figure:: 20170331_073139.jpg
-   :target: 20170331_073139.jpg
    :alt: Snowy Morning
 
    *Snowy Morning*
@@ -49,7 +48,6 @@ My mornings usually start waking up at around 07:00, drinking some water and eat
 
 
 .. figure:: 20170331_132712.jpg
-   :target: 20170331_132712.jpg
    :alt: Workspace
 
    *Altar of success*
@@ -82,7 +80,6 @@ Growth Mindset -- Becoming Your Best Self
 .. Mental Models
 
 .. figure:: growth.pdf
-   :target: growth.pdf
    :alt: growth function
    :width: 70%
 

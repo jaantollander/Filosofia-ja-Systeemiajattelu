@@ -1,7 +1,5 @@
 ## Project
-material/
 .idea/
-images/
 
 
 # Created by .ignore support plugin (hsz.mobi)
@@ -17,7 +15,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-build/
+documents/
 develop-eggs/
 dist/
 downloads/

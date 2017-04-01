@@ -148,6 +148,7 @@ latex_documents.append((
     'summary/index', tex_file('summary', student_number),
     'Referaatti', author, 'report'
 ))
+# latex_logo = '_static/Philosophy.png'
 
 # Oppimiskeskustelu
 authors = [
@@ -159,11 +160,12 @@ authors = [
 ]
 latex_documents.append((
     'oppimiskeskustelu/index',
-    tex_file(*([auth for auth, numb in authors] + ['raportti'])),
+    tex_file(*(['raportti'] + [numb for auth, numb in authors])),
     'Räjähdysvoimaisen Oppimiskeskustelun Raportti',
     r'\\'.join((', '.join(details) for details in authors)),
     'report'
 ))
+latex_logo = '_static/pulp-fiction-duo.jpg'
 
 # Reflektioessee
 latex_documents.append((
@@ -171,8 +173,9 @@ latex_documents.append((
     tex_file('reflektioessee', student_number),
     'Landscape of my Life', author, 'report'
 ))
+# latex_logo = '_static/limitless-movie-review-1.png'
 
-latex_logo = '_static/limitless-movie-review-1.png'
+
 latex_show_urls = 'footnote'
 latex_additional_files = [
     mystyle + '.sty'
