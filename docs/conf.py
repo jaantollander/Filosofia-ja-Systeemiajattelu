@@ -34,6 +34,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.githubpages',
+    'sphinxcontrib.tikz',
 ]
 
 templates_path = ['_templates']
@@ -113,6 +114,7 @@ preamble = r"""
 \usepackage{amsfonts}
 \usepackage{parskip}
 \usepackage{microtype}
+\usepackage{tikz}
 """
 
 mystyle = 'customtitle'
@@ -165,7 +167,7 @@ latex_documents.append((
     r'\\'.join((', '.join(details) for details in authors)),
     'report'
 ))
-latex_logo = '_static/pulp-fiction-duo.jpg'
+# latex_logo = '_static/pulp-fiction-duo.jpg'
 
 # Reflektioessee
 latex_documents.append((
@@ -173,7 +175,7 @@ latex_documents.append((
     tex_file('reflektioessee', student_number),
     'Landscape of my Life', author, 'report'
 ))
-# latex_logo = '_static/limitless-movie-review-1.png'
+latex_logo = '_static/limitless-movie-review-1.png'
 
 
 latex_show_urls = 'footnote'

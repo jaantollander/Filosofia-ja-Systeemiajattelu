@@ -1,7 +1,9 @@
 ## Documentation
 sphinx
-sphinx_rtd_theme
+sphinx-autobuild
+sphinx-rtd-theme
 graphviz
+sphinxcontrib-tikz
 
 ## Github pages
 ghp-import
